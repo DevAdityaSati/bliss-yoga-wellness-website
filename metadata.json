@@ -1,0 +1,6 @@
+{
+  "name": "Bliss Yoga & Wellness",
+  "description": "A luxury online yoga and wellness studio offering personalized Hatha, Chair, Therapeutic Yoga, and Guided Meditation classes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

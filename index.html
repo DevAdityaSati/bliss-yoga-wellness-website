@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var activeFetch = originalFetch;
+
+          // Redefine fetch on window object with getter and setter
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return activeFetch;
+            },
+            set: function(fn) {
+              activeFetch = fn;
+            }
+          });
+        } catch (e) {
+          // Fallback if window is frozen or non-configurable
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bliss Yoga & Wellness | Move with Purpose. Live with Balance.</title>
+    <meta name="description" content="Experience luxury personalized online yoga classes in Hatha, Chair, Therapeutic Yoga, and Guided Meditation worldwide." />
+    <meta name="theme-color" content="#121412" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#121412] text-[#f4f1ea] antialiased selection:bg-[#c5a059] selection:text-[#121412]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

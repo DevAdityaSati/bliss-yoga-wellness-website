@@ -1,0 +1,22 @@
+{
+  "short_name": "Bliss Yoga",
+  "name": "Bliss Yoga & Wellness Sanctuary",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=192&q=80",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=512&q=80",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#121412",
+  "theme_color": "#121412",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Sacred Online Yoga, Pranayama & Meditation Practice Platform"
+}

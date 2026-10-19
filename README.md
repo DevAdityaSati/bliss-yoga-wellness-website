@@ -1,4 +1,4 @@
-# Bliss Yoga and Wellness 🧘‍♀️
+# Bliss Yoga and Wellness 
 
 A web-based yoga and wellness platform designed to help users explore online yoga programs, book classes, and access their sessions through a dedicated student portal.
 
